@@ -1,0 +1,13 @@
+## IDF Component Manager Manifest File
+dependencies:
+  #v8.3.5
+  lvgl/lvgl:
+    git: https://github.com/lvgl/lvgl.git
+    version: "f29514aa5c34d84f69a7ed30835bbffc5cbd515c"
+  #develop branch
+  lvgl/lvgl_esp32_drivers:
+    git: https://github.com/lvgl/lvgl_esp32_drivers.git
+    version: "1759b774a98d4a9f573436b6cfcb51a318e045fe"
+  ## Required IDF version
+  idf:
+    version: "=4.4.3"
